@@ -11,3 +11,4 @@ Feel free to add links to your own git-projects etc here. Please add a short des
 
 ## Thesis Tex:
 - Setup for PhD thesis in LaTeX: https://github.com/MetOs-UiO/TeXTemplate-PhD-thesis-MetOs
+- Poster templete UiO: https://github.com/MetOs-UiO/uio_geo_poster_template

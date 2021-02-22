@@ -7,7 +7,11 @@ Feel free to add links to your own git-projects etc here. Please add a short des
   Idea is a one command program to setup a case with all the details stored in a *.ini file. 
   - [ERA_interim2noresm](https://github.com/sarambl/ERA_interim2noresm) -- package to download and regrid ERA-Interim to nudge format for NorESM. 
 
-## Code from outside
+## Useful links to relevant code
+- 
+
+## Guides and docs
+- [SSHFS to nird](https://github.com/MetOs-UiO/info_links_etc/blob/main/guides_and_docs/sshfs_to_nird.md)
 
 ## Thesis Tex:
 - Setup for PhD thesis in LaTeX: https://github.com/MetOs-UiO/TeXTemplate-PhD-thesis-MetOs

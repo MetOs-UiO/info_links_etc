@@ -8,5 +8,6 @@ So far we have
 - [Other links to code etc](Links_to_useful_code.md)
 - [Templates for communication](https://github.com/MetOs-UiO/info_links_etc/tree/main/communication)
 - [Dotfiles and editors](https://github.com/MetOs-UiO/info_links_etc/blob/main/computer_configuration/dotfiles_and_editors.md)
+- [New at metos?](https://github.com/MetOs-UiO/info_links_etc/blob/main/new_at_metos.md)
 
 If you want to share somehting, you can edit either of the files linked to above, and create a pull request.

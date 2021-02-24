@@ -8,7 +8,7 @@ Is a widely used and powerful editor with infinite tweeking possibilities.
 
 
 ## Links 
-- An [example](https://github.com/sunnivin/dotfiles) of one way one can organize dotfiles + @sunnivin's personal emacs configuration.
+- An [example](https://github.com/sunnivin/dotfiles) of one way one can organize dotfiles + [sunnivin's](https://github.com/sunnivin/dotfiles) personal emacs configuration.
   - Q: "I do not need emacs, I'm using vim." 
   - A: "Do you know about [emacs evil-mode](https://www.emacswiki.org/emacs/Evil)? Check it out!"
 

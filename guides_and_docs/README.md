@@ -9,6 +9,9 @@ Examples: working with nird, fram etc.
 - [Dotfiles and editors](guides_and_docs/computer_configuration/dotfiles_and_editors.md)
 ## Models:
 Please feel free to add material/models. 
+
+- Check out Nordic ESM hub for information, tutorials, documentations, events etc: [https://nordicesmhub.github.io/](https://nordicesmhub.github.io/)
+
 ### [NorESM](NorESM.md)
 
 ### CLM

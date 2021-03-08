@@ -22,3 +22,5 @@ Please feel free to add material/models.
 
 ### MORE?
 
+### High performance computing:
+- [Machine learning on HPC](machine_learning.md)

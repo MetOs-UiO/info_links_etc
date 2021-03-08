@@ -1,4 +1,4 @@
-New to Machine leanring hpc using:
+New to machine learning using High Performance Computing (HPC):
 
 1. The hpc resources in UiO (highly recommended):
 https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/ml-nodes/ 

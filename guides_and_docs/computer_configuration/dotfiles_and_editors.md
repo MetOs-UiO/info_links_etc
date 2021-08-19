@@ -24,8 +24,8 @@ An [example](https://github.com/sunnivin/dotfiles) of one way one can organize d
 ### Visual Studio Code
 [Webpage](https://code.visualstudio.com/) 
 - Beginner friendly
-- Integrates well into Windows, Linux, and Mac
-- Choose from a growing number of extensions
-- Work remotely through your editor
+- Python file (.py), Jupyter Notebook (.ipynb), and Terminal on the same window
+- Version Control Integration with Git / GitHub
+- User Customization
 
 An [example](https://github.com/ziu1986/bash_scripts/tree/master/vs_code) script to install a basic set of extensions. 

@@ -25,7 +25,7 @@ An [example](https://github.com/sunnivin/dotfiles) of one way one can organize d
 [Webpage](https://code.visualstudio.com/) 
 - Beginner friendly
 - Integrates well into Windows, Linux, and Mac
-- Choose from a growing number of extensions (full jupyter notebook support)
+- Choose from a growing number of extensions
 - Work remotely through your editor
 
 An [example](https://github.com/ziu1986/bash_scripts/tree/master/vs_code) script to install a basic set of extensions. 

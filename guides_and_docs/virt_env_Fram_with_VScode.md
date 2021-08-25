@@ -1,10 +1,10 @@
 # How to use Virtual studio Code and Fram
 
-If you like to run significant bits of code, you probably want to do it on a Server. I decided to run my code on Fram, one of the Sigma2 HPCs. 
+If you like to run significant bits of code, you probably want to do it on a Server. One possible choice is to run code on Fram, one of the Sigma2 HPCs.  
 
-I use Visual Studio Code (VS code) to connect to Fram and to run my scripts. To connect to any remote via ***ssh***, please follow the [instructions](https://code.visualstudio.com/docs/remote/ssh) on the VS code documentation. If you want to connect to Fram via VS code, use `<username>@fram.sigma2.no`, while Nird needs to know about the individual nodes. Nird: `<username>@loginX.nird.sigma2.no` where X is the node 0, 1, 2, or 3.
+You can use Visual Studio Code (VS code) to connect to Fram and run scripts there. To connect to any remote via ***ssh***, please follow the [instructions](https://code.visualstudio.com/docs/remote/ssh) on the VS code documentation. If you want to connect to Fram via VS code, use `<username>@fram.sigma2.no`, while Nird needs to know about the individual nodes. Nird: `<username>@loginX.nird.sigma2.no` where X is the node 0, 1, 2, or 3.
 
-> **_NOTE:_**  The problem is that login.nird.sigma2.no is an alias corresponding to 4 login nodes:
+> **_NOTE:_**  If you log in using ssh in your terminal you would use login.nird.sigma2.no which is an alias corresponding to 4 login nodes:
 > - login0.nird.sigma2.no
 > - login1.nird.sigma2.no
 > - login2.nird.sigma2.no
@@ -13,7 +13,7 @@ I use Visual Studio Code (VS code) to connect to Fram and to run my scripts. To 
 > and that probably won't work with VS code unless if you stick to one login node and use specifically that one.
 
 
-Once we are logged in to Fram, we will be in our home directory. Open the terminal with one of the below commands:
+Once you are logged in to Fram, you will be in your home directory. Open the terminal with one of the below commands:
 - Use the `Ctrl+` ` keyboard shortcut with the backtick character.
 - Use the **View > Terminal** menu command.
 - From the **Command Palette** (`Ctrl+Shift+P`), use the **View: Toggle Integrated Terminal** command. 
@@ -22,16 +22,16 @@ To check if you are in your home directory, type the following:
 ```
 $ cd ~
 $ pwd
-/cluster/home/username
+/cluster/home/<username>
 ``` 
-Since I want my science to be reproducible, I create my personal virtual environment for Python on Fram. [Why do I want to use a private virtual environment?](https://towardsdatascience.comwhy-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0)
+Since it is strongly recommended to make your science reproducible, you should create your personal virtual environment for Python on Fram. [Why do you want to use a private virtual environment?](https://towardsdatascience.comwhy-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0)
 
-Fram has much [software already preinstalled](https://documentation.sigma2.no/software/installed_software/fram_modules.html), such as Python. Now I'm just following the documentation of Sigma2 on [Installing Python Packages](https://documentation.sigma2.no/software/userinstallsw/python.html#installing-python-packages) and [Using Python Environments in VS code](https://code.visualstudio.com/docs/python/environments#).
-The following did the trick for me:
+Fram has much [software already preinstalled](https://documentation.sigma2.no/software/installed_software/fram_modules.html), such as Python. Now we are just following the documentation of Sigma2 on [Installing Python Packages](https://documentation.sigma2.no/software/userinstallsw/python.html#installing-python-packages) and [Using Python Environments in VS code](https://code.visualstudio.com/docs/python/environments#).
+The following steps are needed to finalize the virtual environment for a given `<username>`.
 ```
 $ cd ~
 $ pwd
-/cluster/home/franzihe
+/cluster/home/<username>
 # First load an appropriate Python module (use 'module list Python' to see all)
 $ module load Python/3.8.6-GCCcore-10.2.0
 # create the environment in your home directory
@@ -40,7 +40,7 @@ $ python3 -m venv .venv
 
 You should now see `.venv` in your home directory. Please don't rename the virtual environment. It should be called `.venv`!
 
-If you instead want to have the virtual environment to be within your project, you can also follow the VS code instructions on [How to manually specify an interpreter](https://code.visualstudio.com/docs/python/environments#_manually-specify-an-interpreter).
+If you instead want to have the virtual environment within your project, you can also follow the VS code instructions on [How to manually specify an interpreter](https://code.visualstudio.com/docs/python/environments#_manually-specify-an-interpreter).
 
 To install packages in your virtual environment, you have to activate the environment. 
 ```

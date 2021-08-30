@@ -1,6 +1,10 @@
 # New to ...?
 Here you can find some guides to help you get started with the technical work at MetOs. 
 
+## ...IT resources?
+
+- [Overview](https://annefou.github.io/resources-UiO/index.html) JupyterHub, VDI, servers, HPCs @ UiO developed by Anne Fouilloux
+
 ## ...Github? 
 
 - [Individual workflow](https://coderefinery.github.io/git-intro/). Answers branch, push, commit. 

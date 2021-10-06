@@ -18,5 +18,12 @@ Feel free to add links to your own git-projects etc here. Please add a short des
 - [plot weathermaps from MEPS/AROME Arctic](https://github.com/franzihe/Weathermap) -- creates specific weathermaps for a chosen area. This can be adjustet to either use the _latest_ initialization or the _archived_ forecasts (change the input directory accordingly).
 - [download Radiosonde data and create skewT plots](https://github.com/franzihe/Radiosonde) -- this includes code to download radiosonde observations from the University of Wyoming website (here Stavanger, station #01415). Code to plot a vertical profile of temperature in skewT from MEPS (_latest_ or _archived_ has to be adjusted). In addition, a code to plot a seasonal mean temperature profile of both, UWyoming data and MEPS archived data.
 
+### Useful code produced by others
+- [CMIP6-downloader python script](https://github.com/tloureiro/cmip6_downloader) -- The instructions are on the github repo, but you simply have to download the `cmip6_downloader.py` file and place it in the folder that you want the data to be downloaded into, and then run the script specifying what variables etc. you want downloaded. The script can run in the background, as opposed to manually downloading the wget scripts from the WCRP website.
 
+e.g. TOA radiative fluxes from NorESM2-LM 
+```
+python3 cmip6_downloader.py --variable_id rsut,rlut,rsutcs,rlutcs --experiment_id historical --source_id NorESM2-LM --grid_label gn --variant_label r1i1p1f1 --frequency mon
+
+```
 

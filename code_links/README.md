@@ -8,7 +8,8 @@ Feel free to add links to your own git-projects etc here. Please add a short des
 - [ERA_interim2noresm](https://github.com/sarambl/ERA_interim2noresm) -- package to download and regrid ERA-Interim to nudge format for NorESM.
 
 
-### ERA5
+### Reanalysis (ERA-Interim and ERA5)
+- [download ERA-Interim](https://github.com/hannasv/MS/tree/master/download_reanalysis_data) -- scripts for downloading ERA interim can be found in directory [downloading_era_interim](https://github.com/hannasv/MS/tree/master/download_reanalysis_data/downloading_era_interim) and ERA5 in [download_ERA5](https://github.com/hannasv/MS/tree/master/download_reanalysis_data/download_ERA5). Inspired by [ECMWF's own instructions](https://confluence.ecmwf.int/display/WEBAPI/Access+ECMWF+Public+Datasets). 
 - [download ERA5](https://github.com/franzihe/download_ERA5) -- for analysis, e.g. monthly means, hourly; for single level values and pressure level. As for now it downloads globally at 0.25 grid resolution. Can be adjusted to coarser grid and just a region.
 
 ### Regridding
